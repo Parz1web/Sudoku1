@@ -32,11 +32,6 @@ namespace Sudoku
                     buttons[i, j] = new Button();
                 }
             }
-            //MatrixTransposition();
-            //SwapRowsInBlock();
-            //SwapColumnsInBlock();
-            //SwapBlocksInRow();
-            //SwapBlocksInColumn();
             Random r = new Random();
             for (int i = 0; i < 40; i++)
             {
